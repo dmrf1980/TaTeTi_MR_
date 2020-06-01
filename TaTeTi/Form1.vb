@@ -21,15 +21,15 @@
 
         HayGanador = False
 
-        If (lbl_0_0.Text = "X" And lbl_0_1.Text = "X" And lbl_0_2.Text = "X") Or (lbl_0_0.Text = "O" And lbl_0_1.Text = "O" And lbl_0_2.Text = "O") Then
+        If lbl_0_0.Text = jugador And lbl_0_1.Text = jugador And lbl_0_2.Text = jugador Then
             HayGanador = True
-        ElseIf (lbl_1_0.Text = "X" And lbl_1_1.Text = "X" And lbl_1_2.Text = "X") Or (lbl_1_0.Text = "O" And lbl_1_1.Text = "O" And lbl_1_2.Text = "O") Then
+        ElseIf lbl_1_0.Text = jugador And lbl_1_1.Text = jugador And lbl_1_2.Text = jugador Then
             HayGanador = True
-        ElseIf (lbl_2_0.Text = "X" And lbl_2_1.Text = "X" And lbl_2_2.Text = "X") Or (lbl_2_0.Text = "O" And lbl_2_1.Text = "O" And lbl_2_2.Text = "O") Then
+        ElseIf lbl_2_0.Text = jugador And lbl_2_1.Text = jugador And lbl_2_2.Text = jugador Then
             HayGanador = True
-        ElseIf (lbl_0_0.Text = "X" And lbl_1_1.Text = "X" And lbl_2_2.Text = "X") Or (lbl_0_0.Text = "O" And lbl_1_1.Text = "O" And lbl_2_2.Text = "O") Then
+        ElseIf lbl_0_0.Text = jugador And lbl_1_1.Text = jugador And lbl_2_2.Text = jugador Then
             HayGanador = True
-        ElseIf (lbl_2_0.Text = "X" And lbl_1_1.Text = "X" And lbl_0_2.Text = "X") Or (lbl_2_0.Text = "O" And lbl_1_1.Text = "O" And lbl_0_2.Text = "O") Then
+        ElseIf lbl_2_0.Text = jugador And lbl_1_1.Text = jugador And lbl_0_2.Text = jugador Then
             HayGanador = True
         End If
 
